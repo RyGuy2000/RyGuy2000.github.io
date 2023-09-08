@@ -5,19 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Server</title>
+    <title></title>
     <style>
         ol.sClasses{
         list-style-type: circle;
    }
 </style>
+<link href="styles/style.css" rel="stylesheet" />
 </head>
 
 <body>
     <h1>Name: Ryan Dreyer</h1>
-    <h2>Net ID: 02522220</h2>
+    <h2 class="netid">Net ID: 02522220</h2>
     
     <a href = "https://ryguy2000.github.io/">Ryan's GitHub Pages site.</a>
+<dev class="Container">
+<dev class="right">
+    <h2>Questionaire: How Hungry</h2>
+    <form action="https://www.cs.montana.edu/users/h48c334/form-viewer.php" method="GET">
+        <label for="slider">How Hungrey are you?</label>
+        <input type="range" min="1" max="100" value="50" class="slider" id="slider"name="Hunger%">
+        <label for="Yff">Your Favorite Food:</label>
+        <input type="text" id="Yff" name="Your Favorite Food">
+        <input type="submit" value="Submit Data">
+    </form>
+    <h2>My Intersts: Skiing and Cold Water Diving</h2>
+    <a href = "https://en.wikipedia.org/wiki/Scuba_diving"> 
+        <img src="Images\scuba pic.JPEG"/> 
+    </a>
+    <a href = "https://en.wikipedia.org/wiki/Skiing"> 
+        <img src="Images\Skier.jpg"/> 
+    </a>
+</dev>
+    <div class = "right">
     <h2>
         Class Schedule
     </h2>
@@ -26,9 +46,9 @@
         <tr>
             <th></th>
             <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
+            <th class="even">Tuesday</th>
+            <th >Wednesday</th>
+            <th class="even">Thursday</th>
             <th>Friday</th>
         </tr>
         <tr>
@@ -58,7 +78,7 @@
         <tr>
             <th>1:00 PM</th>
             <td>CSCI 443</td>
-            <td>M 172</td>
+            <td class="even">M 172</td>
             <td>CSCI 443</td>
             <td></td>
             <td>CSCI 443</td>
@@ -74,9 +94,9 @@
         <tr>
             <th>3:00 PM</th>
             <td></td>
-            <td>CSCI 476</td>
+            <td class="even">CSCI 476</td>
             <td></td>
-            <td>CSCI 476</td>
+            <td class="even">CSCI 476</td>
             <td></td>
         </tr>
         <tr>
@@ -96,7 +116,6 @@
             <td></td>
         </tr>
     </table>
-
     <h2>
         Previous Courses Taken.
     </h2>
@@ -108,6 +127,7 @@
         <li>CSCI 351</li>
         <li>CSCI 112</li>
     </ol>
-    
+</dev>
+</dev>
 </body>
 </html>
